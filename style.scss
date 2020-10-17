@@ -1,0 +1,40 @@
+$font-stack:    Helvetica, sans-serif;
+$text-color: #303030;
+$bg-color: #eee;
+$imgsize: 350px;
+$margin: 2%;
+
+html {
+  font: 100% $font-stack;
+  background-color: $text-color;
+}
+
+.container{
+    background-color: $bg-color;
+    color: $text-color;
+    text-align: center;
+    margin: $margin;
+}
+
+.logo{
+  width: $imgsize;
+  height: $imgsize;
+}
+
+a:link {
+color: $text-color;
+text-decoration: none;
+}
+
+a:visited {
+color: $text-color;
+text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
