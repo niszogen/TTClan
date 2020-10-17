@@ -2,7 +2,7 @@ $font-stack:    Helvetica, sans-serif;
 $text-color: #303030;
 $bg-color: #eee;
 $imgsize: 350px;
-$margin: 2%;
+$margin: 1%;
 
 html {
   font: 100% $font-stack;
@@ -23,18 +23,8 @@ html {
 
 a:link {
 color: $text-color;
-text-decoration: none;
 }
 
 a:visited {
 color: $text-color;
-text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-a:active {
-  text-decoration: underline;
 }

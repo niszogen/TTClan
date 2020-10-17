@@ -7,7 +7,7 @@ html {
   background-color: #eee;
   color: #303030;
   text-align: center;
-  margin: 2%;
+  margin: 1%;
 }
 
 .logo {
@@ -17,18 +17,8 @@ html {
 
 a:link {
   color: #303030;
-  text-decoration: none;
 }
 
 a:visited {
   color: #303030;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-a:active {
-  text-decoration: underline;
 }
