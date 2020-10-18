@@ -1,24 +1,40 @@
-html {
+@keyframes appear {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+body {
   font: 100% Helvetica, sans-serif;
-  background-color: #303030;
+  background-color: #171717;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  overflow: hidden;
 }
 
 .container {
   background-color: #eee;
-  color: #303030;
+  color: #171717;
   text-align: center;
   margin: 1%;
+  min-width: 95%;
+  animation-name: appear;
+  animation-duration: 1.15s;
 }
 
 .logo {
-  width: 350px;
-  height: 350px;
+  width: 325px;
+  height: 325px;
 }
 
 a:link {
-  color: #303030;
+  color: #171717;
 }
 
 a:visited {
-  color: #303030;
+  color: #171717;
 }

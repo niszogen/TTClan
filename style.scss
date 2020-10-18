@@ -1,12 +1,27 @@
 $font-stack:    Helvetica, sans-serif;
-$text-color: #303030;
+$text-color: #171717;
 $bg-color: #eee;
-$imgsize: 350px;
+$imgsize: 325px;
 $margin: 1%;
+$animation-dur: 1.15s;
 
-html {
+@keyframes appear {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+body {
   font: 100% $font-stack;
   background-color: $text-color;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  overflow: hidden;
 }
 
 .container{
@@ -14,6 +29,9 @@ html {
     color: $text-color;
     text-align: center;
     margin: $margin;
+    min-width: 95%;
+    animation-name: appear;
+    animation-duration: $animation-dur;
 }
 
 .logo{
