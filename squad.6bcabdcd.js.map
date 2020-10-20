@@ -1,0 +1,1 @@
+{"version":3,"sources":["squad.js"],"names":["Squad","document","write"],"mappings":"AAAA,IAAMA,KAAK,GAAG,CAAC,UAAD,EAAa,WAAb,EAA0B,aAA1B,EAAyC,eAAzC,CAAd;AACAC,QAAQ,CAACC,KAAT,CAAeF,KAAf","file":"squad.6bcabdcd.js","sourceRoot":"..","sourcesContent":["const Squad = [\"NISZOgen\", \" RiverBat\", \" Mozzagedon\", \" Pickraft1234\"];\r\ndocument.write(Squad);\r\n"]}

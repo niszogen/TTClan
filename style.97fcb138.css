@@ -1,0 +1,42 @@
+@keyframes appear {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+body {
+  font: 100% Helvetica, sans-serif;
+  background-color: #171717;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.container {
+  background-color: #eee;
+  color: #171717;
+  text-align: center;
+  margin: 1%;
+  min-width: 95%;
+  animation-name: appear;
+  animation-duration: 1.5s;
+}
+
+.logo {
+  width: 150px;
+  height: 150px;
+}
+
+a:link {
+  color: #171717;
+}
+
+a:visited {
+  color: #171717;
+}
+
+/*# sourceMappingURL=/style.97fcb138.css.map */
