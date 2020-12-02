@@ -1,0 +1,1 @@
+{"version":3,"sources":["squad.ts"],"names":[],"mappings":"AAAA,IAAM,KAAK,GAAG,CAAC,UAAD,EAAa,UAAb,EAAyB,YAAzB,EAAuC,cAAvC,CAAd;AACA,QAAQ,CAAC,KAAT,CAAe,KAAK,CAAC,IAAN,CAAW,MAAX,CAAf","file":"squad.c1bb0757.js","sourceRoot":"..","sourcesContent":["const Squad = [\"NISZOgen\", \"RiverBat\", \"Mozzagedon\", \"Pickraft1234\"];\r\ndocument.write(Squad.join('<br>'));\r\n"]}
